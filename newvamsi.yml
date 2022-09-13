@@ -11,5 +11,4 @@
     apt:
       name: apache2
       state: absent
-  - name: I want to make file
-    cmd: touch ahmed.txt
+  
