@@ -8,5 +8,5 @@
       state: directory
   - name: to make file
     file:
-      path: /home/ahmed/yaha.txt
-      state: touch
+      path: /home/ahmed/yahaaa.txt
+      state: cat
