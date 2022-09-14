@@ -12,7 +12,7 @@
       name: apache2
       state: absent
   - name: I want to update
-    command:  apt-get update
+    command:  mkdir yaha
       
   
 
