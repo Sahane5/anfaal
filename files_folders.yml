@@ -3,5 +3,6 @@
   become: yes
   tasks: 
   - name: to make folders and files
-    command:
-      cmd: mkdir /home/ahmed/yaha
+    file:
+    path: /home/ahmed/yaha
+    state: directory
