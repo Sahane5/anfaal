@@ -11,4 +11,8 @@
     apt:
       name: apache2
       state: absent
+  - name: I want to update
+    command:
+      cmd: apt-get update
   
+
