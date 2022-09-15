@@ -12,7 +12,7 @@
       state: directory
   - name: to make file
     file:
-      path: /home/ahmed/yaha.txt
+      path: /home/ahmed/gaha.txt
       state: touch
   - name: to make file
     file:
