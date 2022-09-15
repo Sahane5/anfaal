@@ -6,6 +6,14 @@
     file:
       path: /home/ahmed/yaha
       state: directory
+  - name: to make second folder
+    file:
+      path: /home/ahmed/jaha
+      state: directory
+  - name: to make file
+    file:
+      path: /home/ahmed/yaha.txt
+      state: touch
   - name: to make file
     file:
       path: /home/ahmed/yaha.txt
